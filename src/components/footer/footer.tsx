@@ -7,7 +7,6 @@ import HugeiconsYoutube from "@/icons/HugeiconsYoutube";
 import HugeiconsTelegram from "@/icons/HugeiconsTelegram";
 import HugeiconsInstagram from "@/icons/HugeiconsInstagram";
 
-// import tamashachiLogo from "@/assets/logo/T-logo-red.svg";
 import enamadLogo from "@/assets/logo/E-namad-w.svg";
 import guildLogo from "@/assets/logo/guild-w.svg";
 import nrLogo from "@/assets/logo/NR-badge-w.svg";
