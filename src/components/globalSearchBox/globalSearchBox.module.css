@@ -12,8 +12,7 @@
   .search {
     display: flex;
     align-items: center;
-
-    font-size: 1.25rem;
+    font-size: var(--fz-200);
   }
 
   > input {
@@ -25,7 +24,7 @@
     border: none;
 
     &::placeholder {
-      font-size: 0.875rem;
+      font-size: var(--fz-300);
     }
 
     &:focus {
@@ -53,11 +52,11 @@
 
       cursor: pointer;
 
-      font-size: 0.875rem;
+      font-size: var(--fz-300);
       font-weight: 500;
 
       svg {
-        font-size: 1.25rem;
+        font-size: var(--fz-400);
       }
 
       &:hover {

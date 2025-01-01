@@ -6,6 +6,7 @@ import Doctorino from "@/assets/logo/doctorino";
 import styles from "./page.module.css";
 
 export default function Home(): ReactElement {
+  throw new Error("sdkdgjgdfj");
   return (
     <div className={styles.home}>
       <h1>
