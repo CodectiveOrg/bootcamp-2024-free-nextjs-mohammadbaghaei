@@ -26,7 +26,6 @@ const navLinks: navLink[] = [
   },
 ];
 
-
 export default function Header(): ReactElement {
   const pathname = usePathname();
   return (

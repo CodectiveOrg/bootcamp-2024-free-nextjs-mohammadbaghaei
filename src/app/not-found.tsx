@@ -15,7 +15,10 @@ export default function NotFound(): ReactElement {
       </div>
       <div className={Styles.writings}>
         <h1>گشتم نبود...</h1>
-        <p>چیزی که دنبالش بودین پیدا نشد ولی میتونید از کادر زیر مشابه اون رو پیدا کنید.</p>
+        <p>
+          چیزی که دنبالش بودین پیدا نشد ولی میتونید از کادر زیر مشابه اون رو
+          پیدا کنید.
+        </p>
       </div>
       <div className={Styles.search}>
         <GlobalSearchBox />
