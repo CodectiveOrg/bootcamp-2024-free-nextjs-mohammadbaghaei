@@ -1,0 +1,55 @@
+.not-found {
+  display: grid;
+  grid-template-areas:
+    "visuals writings"
+    "visuals search";
+  place-content: center;
+  min-block-size: 100%;
+  gap: 1rem;
+
+  .visuals {
+    grid-area: visuals;
+    min-block-size: 200%;
+    block-size: 0;
+    align-self: center;
+    justify-self: center;
+    pointer-events: none;
+    user-select: none;
+
+    img {
+      block-size: 100%;
+      inline-size: 100%;
+    }
+  }
+
+  .writings {
+    grid-area: writings;
+  }
+
+  .search {
+    grid-area: search;
+  }
+
+  h1 {
+    font-size: var(--fz-600);
+  }
+
+  p {
+    max-inline-size: 50ch;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .not-found {
+    grid-template-areas:
+      "visuals"
+      "writings"
+      "search";
+
+    .visuals {
+      block-size: unset;
+      width: 50%;
+      min-block-size: unset;
+    }
+  }
+}
